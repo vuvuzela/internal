@@ -1,12 +1,11 @@
 package mock
 
 import (
+	"crypto/ed25519"
 	"crypto/rand"
 	"io/ioutil"
 	"log"
 	"net/http"
-
-	"golang.org/x/crypto/ed25519"
 
 	"vuvuzela.io/alpenhorn/cdn"
 	"vuvuzela.io/alpenhorn/edtls"

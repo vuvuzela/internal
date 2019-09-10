@@ -1,9 +1,8 @@
 package debug
 
 import (
+	"crypto/ed25519"
 	"reflect"
-
-	"golang.org/x/crypto/ed25519"
 
 	"github.com/davidlazar/go-crypto/encoding/base32"
 	"github.com/kylelemons/godebug/pretty"

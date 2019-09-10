@@ -5,11 +5,10 @@
 package mock
 
 import (
+	"crypto/ed25519"
 	"io/ioutil"
 	"net/http"
 	"os"
-
-	"golang.org/x/crypto/ed25519"
 
 	"vuvuzela.io/alpenhorn/edtls"
 	"vuvuzela.io/alpenhorn/errors"
